@@ -1,0 +1,77 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+h2 {
+	font-size: 18px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+	max-height: 300px;
+	display: inline;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.checkbox {
+	display: flex;
+}
+
+.format {
+	text-align: justify;
+	text-indent: 30px;
+}
+
+.profile-button{
+	font-size: 18px;
+	background-color: yellow
+}
+
+#compliment{
+	display: block;
+}
+
+#home {
+	display: flex;
+}
+
+.compliment-list{
+	height: 195px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}

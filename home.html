@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Hello World!</h1>
+		<!-- insert hello world here -->
+
+		<div id="home">
+			<img id="cat-picture" src="https://cdn.pixabay.com/photo/2017/01/30/00/24/british-shorthair-2019748_1280.jpg">
+			<ul class="compliment-list">
+				<li id="compliment">Wow! You look great today!</li>
+				<li id="compliment">You're doing a wonderful job!</li>
+				<li id="compliment">Your laugh is infectious!</li>
+			</ul>
+		</div>
+		<div id="intro">
+			<p>Welcome! This is a safe space for all who find Marissa to be cool and hilarious.</p>
+		</div>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			<fieldset>
+				<legend>
+					How did you hear about us?
+				</legend>
+				<div class="checkbox">
+					<input type="checkbox" name="check-google" id="check-google"><label for="check-google">Google</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" name="check-friend"> 
+					<label for="check-friend">A friend</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" id="check-other" name="check-other">
+					<label for="check-other">Other</label>
+				</div>
+				<input type="submit" value ="Submit">
+			</fieldset>
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>
